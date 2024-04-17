@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  width:100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+
+.search-buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width:250px;
+  padding: 10px;
+}
+.view-custom-lr-btn{
+  padding: 5px;
+  cursor: pointer;
+}
